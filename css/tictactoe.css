@@ -1,0 +1,68 @@
+/*
+ * tictactoe.css
+ * Copyright (C) 2016 
+ *
+ * Distributed under terms of the MIT license.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+    margin:0;
+	color: black;
+}
+
+#board {
+    text-align:center;
+}
+
+#board thead {
+    font-family: 'Pacifico', cursive;
+    font-size:30pt;
+}
+
+#board tbody {
+    font-family:sans-serif;
+    text-align:center;
+    font-size:50px;
+}
+
+#board tbody tr td {
+    width:100px;
+    height:100px;
+    background-color:beige;
+    border-radius:10px;
+    box-shadow:1px 1px 6px #000;
+    -webkit-box-shadow:1px 1px 6px #000;
+    -moz-box-shadow:1px 1px 6px #000;
+}
+
+#board tfoot tr:first-child td {
+    padding: 10px 0 10px 0;
+    background:beige;
+    border-radius:10px;
+    box-shadow:1px 1px 6px #000;
+    -webkit-box-shadow:1px 1px 6px #000;
+    -moz-box-shadow:1px 1px 6px #000;
+    font-family:sans-serif;
+    font-weight:bold;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    height:10px;
+    padding-bottom:10px;
+    width:100%;
+    background:beige;
+    z-index:0;
+    box-shadow:1px 1px 6px #000;
+}
+
+footer div {
+    position:fixed;
+    bottom:0;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:1;
+}
